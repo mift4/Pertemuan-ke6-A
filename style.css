@@ -1,3 +1,107 @@
-body{
+/* colors */
+.name {
   color: red;
 }
+.rgb {
+  color: rgb(255, 100, 0);
+}
+.hex {
+  color: #bf00ff;
+}
+.hsl {
+  color: hsl(360, 100%, 90%);
+}
+
+/* background */
+.image {
+  height: 200px;
+  background-image: url(Logo\ tiktok.png);
+}
+.repeat {
+  height: 200px;
+  background-image: url(Logo\ tiktok.png);
+  background-repeat: no-repeat;
+}
+.attachment {
+  height: 300px;
+  background-image: url(Logo\ tiktok.png);
+  background-attachment: fixed;
+}
+.shorthand {
+  height: 200px;
+  background: url(Logo\ tiktok.png) no-repeat;
+  color: #ffffff;
+}
+
+/* border */
+.solid {
+  border: 2px solid red;
+}
+.dotted {
+  border: 2px dotted blue;
+}
+.double {
+  border: 4px double green;
+}
+.dashed {
+  border: 2px dashed yellow;
+}
+
+/* text */
+.color {
+  color: blue;
+}
+.alignment {
+  background-color: aqua;
+  text-align: center;
+}
+/* text decoration */
+.overline {
+  text-decoration: overline red;
+}
+.line-through {
+  text-decoration: line-through blue;
+}
+.underline {
+  text-decoration: underline green;
+}
+.none-underline {
+  text-decoration: none;
+}
+/* text transform */
+.uppercase {
+  text-transform: uppercase;
+}
+.capitalize {
+  text-transform: capitalize;
+}
+.lowercase {
+  text-transform: lowercase;
+}
+/* text shadow */
+.shadow {
+  background-color: aqua;
+  color: white;
+  text-shadow: 2px 2px 4px black;
+}
+
+/* button */
+.button {
+  width: 70px;
+  height: 30px;
+  background-color: red;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: blue;
+}
+.button:active {
+  background-color: green;
+}
+.button p {
+  color: white;
+  text-align: center;
+  padding-top: 5px;
+}
+
